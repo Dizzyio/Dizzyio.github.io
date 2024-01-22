@@ -2,26 +2,39 @@
 <html>
 
 <head>
-    <title>
+    <title>This is a title</title>
+</head>
 
 <body>
-    <nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./About.html">Link #1</a></li>
+                <li><a href="https://www.google.com">google</a></li>
+            </ul>
+        </nav>
+        <h1>Student name and id</h1>
+        <p>Mike MacMullin 000279374</p>
+        <p id="datetime"></p>
 
-    </nav>
+        <script>
+            // Get current date and time
+            var now = new Date();
+            var datetime = now.toLocaleString();
+
+            // Insert date and time into HTML
+            document.getElementById("datetime").innerHTML = datetime;
+        </script>
+    </header>
+    <main>
+        <artical>
+            <h3>artical title</h3>
+            <p>this is a mega paragraph thing</p>
+        </artical>
+    </main>
+    <footer>
+        <p>&copy; MM 2024</p>
+    </footer>
 </body>
-</title>
-</head>
-<main>
-    <aritcle>
-        <h1>
-            <p>
-
-            </p>
-        </h1>
-    </aritcle>
-</main>
-<footer>
-    <p>&copy; MM 2024</p>
-</footer>
 
 </html>
